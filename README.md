@@ -2,9 +2,9 @@
 Challenge #1 of https://hackr.io/blog/best-computer-science-projects
 
 # TODOS
+- Get a testing framework built, CI/CD pipeline
 - See TODOs in temperature, location
 - Handle errors
-- Get a testing framework built, CI/CD pipeline
 - Get EJS-Lint working
 
 # Major Bugs

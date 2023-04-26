@@ -19,6 +19,7 @@ function getTemperature() {
     request.onreadystatechange = function() {
         if (request.readyState == 4) {
             const myUnparsedHTML = request.responseText;
+            // silencing the CSS error (we don't care about CSS)
             const dom = new JSDOM(myUnparsedHTML, { virtualConsole });
             const document = dom.window.document;
             console.log(document.querySelector(".wu-unit-temperature").textContent);
