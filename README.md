@@ -22,5 +22,5 @@ Challenge #1 of https://hackr.io/blog/best-computer-science-projects
 - Started following tutorials to build a rudimentary webapp
 
 ### 4/25/23
-5:00 - 6:30
+5:00 - 6:30pm
 - Got a framework with Express and EJS working
