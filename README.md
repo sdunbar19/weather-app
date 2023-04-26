@@ -26,6 +26,7 @@ Challenge #1 of https://hackr.io/blog/best-computer-science-projects
 ## Stretch Goals
 - Use bootstrap for the CSS (simple but clean)
 - Get the "conditions" and change the background based on the conditions
+- Put the unidentified conditions and other details in a backing google sheet
 - Change the background based on time
 - Automatically choose a zip code based on the user's IP address
 
