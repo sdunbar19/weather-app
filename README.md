@@ -4,6 +4,7 @@ Challenge #1 of https://hackr.io/blog/best-computer-science-projects
 # TODOS
 - Get a testing framework built, CI/CD pipeline
 - See TODOs in temperature, location
+- IMPORTANT: Do not push your API key! Figure out how to hide this
 - Handle errors
 - Get EJS-Lint working
 
