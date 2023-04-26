@@ -5,7 +5,8 @@ Challenge #1 of https://hackr.io/blog/best-computer-science-projects
 - Get a testing framework built, CI/CD pipeline
 - See TODOs in temperature, location
 - IMPORTANT: Do not push your API key! Figure out how to hide this
-- Handle errors
+- Handle user errors correctly
+- Organize this project better
 - Get EJS-Lint working
 
 ## Major Bugs
@@ -23,6 +24,7 @@ Challenge #1 of https://hackr.io/blog/best-computer-science-projects
 - Could not parse CSS stylesheet: https://stackoverflow.com/questions/48830001/jsdom-could-not-parse-css-stylesheet
 
 ## Stretch Goals
+- Use bootstrap for the CSS (simple but clean)
 - Get the "conditions" and change the background based on the conditions
 - Change the background based on time
 - Automatically choose a zip code based on the user's IP address
