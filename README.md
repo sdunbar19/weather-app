@@ -21,6 +21,11 @@ Challenge #1 of https://hackr.io/blog/best-computer-science-projects
 - Parse HTML with javascript: https://stackoverflow.com/questions/11398419/trying-to-use-the-domparser-with-node-js
 - Could not parse CSS stylesheet: https://stackoverflow.com/questions/48830001/jsdom-could-not-parse-css-stylesheet
 
+# Stretch Goals
+- Get the "conditions" and change the background based on the conditions
+- Change the background based on time
+- Automatically choose a zip code based on the user's IP address
+
 # Project Log
 ### 4/24/23
 12:15 - 1:20pm
