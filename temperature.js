@@ -73,7 +73,7 @@ function getTemperatureFromZipcode(res, zipcode) {
                     }
                 }
                 else {
-                    alert("API error: status code " + request.status)
+                    res.render('pages/index', {output: "API error: status code " + request.status});
                 };
             }
         };
