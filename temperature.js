@@ -65,8 +65,10 @@ function getTemperatureFromZipcode(res, zipcode) {
                         }
                         if (city == UNKNOWN_VAL || state == UNKNOWN_VAL || country == UNKNOWN_VAL) {
                             res.render('pages/index', {output: "API error: Unparseable zip code"});
-                        } 
-                        queryTemperature(res, city, state, country);
+                        }
+                        else {
+                            queryTemperature(res, city, state, country);
+                        }
                     }
                     else {
                         res.render('pages/index', {output: "API error: status " + obj.status});
