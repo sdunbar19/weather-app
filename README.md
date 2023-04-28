@@ -12,6 +12,7 @@ https://developers.google.com/maps/documentation/geocoding/overview
 - Get multiple methods of querying working
 - Get some sort of loading working
 - Get some sort of testing working, ideally not separate methods! Bare minimum test APIs are working as expected
+- Look into amending commits
 - Refactoring - figure out if this is even good style
 - Get worldwide querying working?
 - Get more information
