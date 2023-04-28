@@ -1,7 +1,3 @@
-/* 
-TODO: Pass the temperature back up appropriately
-TODO: Turn this method into one that takes params
-*/
 
 function getTemperatureFromZipcode(res, zipcode) {
     function queryTemperature(res, city, state, country) {

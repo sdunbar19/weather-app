@@ -12,12 +12,12 @@ https://developers.google.com/maps/documentation/geocoding/overview
 - Get multiple methods of querying working
 - Get some sort of loading working
 - Get some sort of testing working, ideally not separate methods!
+- Refactoring - figure out if this is even good style
 - Get worldwide querying working?
 - Get more information
 - Get a testing framework built, CI/CD pipeline
 - Organize this project better
 - Get EJS-Lint working
-- Figure out if this is even good style
 
 ## Major Bugs
 - EJS syntax issues -> be careful about closing characters, get EJS-Lint to work
