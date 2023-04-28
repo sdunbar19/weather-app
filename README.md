@@ -8,6 +8,7 @@ For obvious reasons, I'm not publishing mine. See
 https://developers.google.com/maps/documentation/geocoding/overview
 
 ## TODOS
+- Add more console.log statements
 - Try to make functions global
 - Get multiple methods of querying working
 - Get some sort of loading working
