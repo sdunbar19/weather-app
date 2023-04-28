@@ -1,17 +1,28 @@
 # weather-app
 Challenge #1 of https://hackr.io/blog/best-computer-science-projects
 
+## USAGE
+**IMPORTANT**: For this project to function, you must add a separate "keys.txt" file to the
+upper level directory containing a Google Geocoding API key. 
+For obvious reasons, I'm not publishing mine. See 
+https://developers.google.com/maps/documentation/geocoding/overview
+
 ## TODOS
+- Try to make functions global
+- Get multiple methods of querying working
+- Get some sort of loading working
+- Get some sort of testing working, ideally not separate methods!
+- Get worldwide querying working?
+- Get more information
 - Get a testing framework built, CI/CD pipeline
-- See TODOs in temperature, location
-- IMPORTANT: Do not push your API key! Figure out how to hide this
-- Handle user errors correctly
 - Organize this project better
 - Get EJS-Lint working
+- Figure out if this is even good style
 
 ## Major Bugs
 - EJS syntax issues -> be careful about closing characters, get EJS-Lint to work
 - Could not parse CSS stylesheet - see source below for solution
+- Various problems with Google API
 
 ## Key Sources
 - Express HelloWorld: https://expressjs.com/en/starter/hello-world.html 
@@ -22,8 +33,12 @@ Challenge #1 of https://hackr.io/blog/best-computer-science-projects
 - JSDOM for emulate a browser: https://github.com/jsdom/jsdom - pointed to by https://stackoverflow.com/questions/10585029/parse-an-html-string-with-js
 - Parse HTML with javascript: https://stackoverflow.com/questions/11398419/trying-to-use-the-domparser-with-node-js
 - Could not parse CSS stylesheet: https://stackoverflow.com/questions/48830001/jsdom-could-not-parse-css-stylesheet
+- Handling the request - documentation: https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/readystatechange_event
+- Reading and writing files: https://www.tutorialspoint.com/how-to-read-and-write-a-file-using-javascript 
+- Callback model of asynchronous functions: https://stackoverflow.com/questions/3760319/how-to-force-a-program-to-wait-until-an-http-request-is-finished-in-javascript
 
 ## Stretch Goals
+- Autocomplete
 - Use bootstrap for the CSS (simple but clean)
 - Get the "conditions" and change the background based on the conditions
 - Put the unidentified conditions and other details in a backing google sheet
@@ -47,3 +62,9 @@ Challenge #1 of https://hackr.io/blog/best-computer-science-projects
     - Use Wunderground URL (which takes city, state, country, zipcode) to scrape temperature and return
     - Display temperature in the frontend
 - Got the Wunderground scraping working as a proof of concept
+
+### 4/27/23
+4:20 - 6:20pm
+- Put all the pieces together re: mapping a zipcode to a temperature and displaying
+    - Got the Google API working
+    - Got the Wunderground querying working
