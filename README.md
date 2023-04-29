@@ -8,7 +8,7 @@ For obvious reasons, I'm not publishing mine. See
 https://developers.google.com/maps/documentation/geocoding/overview
 
 ## TODOS
-- Add more console.log statements
+- Finish working on dynamically loading pages
 - Try to make functions global
 - Get multiple methods of querying working
 - Get some sort of loading working
@@ -38,6 +38,8 @@ https://developers.google.com/maps/documentation/geocoding/overview
 - Handling the request - documentation: https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/readystatechange_event
 - Reading and writing files: https://www.tutorialspoint.com/how-to-read-and-write-a-file-using-javascript 
 - Callback model of asynchronous functions: https://stackoverflow.com/questions/3760319/how-to-force-a-program-to-wait-until-an-http-request-is-finished-in-javascript
+- Making POST requests from javascript (unsuccessful): https://stackoverflow.com/questions/6396101/pure-javascript-send-post-data-without-a-form 
+- Making POST requests from javascript p2 (unsuccessful): https://stackoverflow.com/questions/45997158/send-post-request-from-express-js-server-to-another-express-js-server
 
 ## Stretch Goals
 - Autocomplete
