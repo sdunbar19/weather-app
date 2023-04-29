@@ -8,7 +8,7 @@ For obvious reasons, I'm not publishing mine. See
 https://developers.google.com/maps/documentation/geocoding/overview
 
 ## TODOS
-- Finish working on dynamically loading pages
+- Finish working on dynamically loading pages (try AJAX demo)
 - Try to make functions global
 - Get multiple methods of querying working
 - Get some sort of loading working
@@ -40,6 +40,7 @@ https://developers.google.com/maps/documentation/geocoding/overview
 - Callback model of asynchronous functions: https://stackoverflow.com/questions/3760319/how-to-force-a-program-to-wait-until-an-http-request-is-finished-in-javascript
 - Making POST requests from javascript (unsuccessful): https://stackoverflow.com/questions/6396101/pure-javascript-send-post-data-without-a-form 
 - Making POST requests from javascript p2 (unsuccessful): https://stackoverflow.com/questions/45997158/send-post-request-from-express-js-server-to-another-express-js-server
+- Making POST requests from javascript p3: https://stackoverflow.com/questions/45121440/redirect-to-new-page-after-ajax-post-request-using-express
 
 ## Stretch Goals
 - Autocomplete
