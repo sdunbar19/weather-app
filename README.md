@@ -73,3 +73,8 @@ https://developers.google.com/maps/documentation/geocoding/overview
 - Put all the pieces together re: mapping a zipcode to a temperature and displaying
     - Got the Google API working
     - Got the Wunderground querying working
+
+### 4/28/23
+5:30 - 6:30pm
+- Tried to get a loading page working unsuccessfully
+- Going to look into AJAX next time I work on this
