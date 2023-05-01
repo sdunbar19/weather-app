@@ -8,7 +8,7 @@ For obvious reasons, I'm not publishing mine. See
 https://developers.google.com/maps/documentation/geocoding/overview
 
 ## TODOS
-- Finish working on dynamically loading pages (try AJAX demo)
+- Try AJAX on the frontend (also potentially try tutorial)
 - Try to make functions global
 - Get multiple methods of querying working
 - Get some sort of loading working
@@ -44,6 +44,7 @@ https://developers.google.com/maps/documentation/geocoding/overview
 - Craigslist Node.js Express AJAX tutorial: https://mherman.org/blog/handling-ajax-calls-with-node-dot-js-and-express-scraping-craigslist/
 - JQuery for Node.js: https://www.npmjs.com/package/jquery
 - An example AJAX call: https://gist.github.com/diorahman/1520485
+- AJAX from the front-end: https://www.geeksforgeeks.org/how-to-send-data-from-client-side-to-node-js-server-using-ajax-without-page-reloading/
 
 
 ## Stretch Goals
