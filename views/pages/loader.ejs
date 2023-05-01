@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <%- include('../partials/head'); %>
+        <script type="text/javascript">
+            $(document).ready(function(){
+            $.ajax({ 
+                    url: '/request',
+                    type: 'POST',
+                    cache: false, 
+                    data: { zipcode: 03755 }, 
+                    success: function(data){
+                        console.log('Success!')
+                    }
+                    , error: function(jqXHR, textStatus, err){
+                        console.log('text status '+textStatus+', err '+err)
+                    }
+                })
+            });            
+        </script>
+    </head>
+    <body class="container">
+        <header>
+        <%- include('../partials/header'); %>
+        </header>
+        <main>
+            <section id="form">
+                <form method="POST">
+                    <div>
+                        <label for="zipcode"> 
+                            Enter your ZIP code 
+                            <input id="zipcode" name="zipcode">
+                        </label>
+                        <input type="submit">
+                    </div>
+                </form> 
+            </section>
+            <section id="results">
+                <div> <%= output %> </div>
+            </section>
+        </main>
+    </body>
+</html>

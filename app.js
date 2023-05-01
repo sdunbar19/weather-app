@@ -4,6 +4,9 @@ const temperature = require('./temperature')
 const path = require('path');
 const app = express();
 const port = 3000;
+const jsdom = require('jsdom');
+const dom = new jsdom.JSDOM("");
+const jQuery = require('jquery')(dom.window);
 
 app.set('views',path.join(__dirname,'views'));
 app.set('view engine', 'ejs');
@@ -14,15 +17,23 @@ app.get('/', function(req, res) {
   res.render('pages/index', {output: "None"});
 });
 
-app.get('/weather', function(req, res) {
-  temperature.getTemperature(res, '03755');
-})
-
 app.post('/',(req, res)=>{
   const {zipcode} = req.body;
-  console.log("LOG: POST request with zip code " + zipcode);
+  console.log("LOG: Sending POST request with zip code " + zipcode);
   res.render('pages/index', {output: "Loading"});
-  res.redirect('/weather');
+  jQuery.ajax({
+    url: '/request',
+    type: 'POST',
+    contentType: 'application/json',
+    data: JSON.stringify({"zipcode": zipcode }),
+    success: function(response){ console.log( response ); }
+  });
+})
+
+app.post('/request',(req, res)=> {
+  console.log("LOG: Received POST request");
+  const {zipcode} = req.body.zipcode;
+  temperature.getTemperature(res, zipcode);
 })
 
 app.listen(port, () => {

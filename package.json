@@ -11,10 +11,12 @@
   "author": "Sarah Dunbar <sarah@dunbar.xyz>",
   "license": "ISC",
   "dependencies": {
+    "ajax": "^0.0.4",
     "body-parser": "^1.20.2",
     "ejs": "^3.1.9",
     "express": "^4.18.2",
     "http": "^0.0.1-security",
+    "jquery": "^3.6.4",
     "jsdom": "^21.1.1",
     "xmlhttprequest": "^1.8.0"
   }

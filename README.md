@@ -41,6 +41,10 @@ https://developers.google.com/maps/documentation/geocoding/overview
 - Making POST requests from javascript (unsuccessful): https://stackoverflow.com/questions/6396101/pure-javascript-send-post-data-without-a-form 
 - Making POST requests from javascript p2 (unsuccessful): https://stackoverflow.com/questions/45997158/send-post-request-from-express-js-server-to-another-express-js-server
 - Making POST requests from javascript p3: https://stackoverflow.com/questions/45121440/redirect-to-new-page-after-ajax-post-request-using-express
+- Craigslist Node.js Express AJAX tutorial: https://mherman.org/blog/handling-ajax-calls-with-node-dot-js-and-express-scraping-craigslist/
+- JQuery for Node.js: https://www.npmjs.com/package/jquery
+- An example AJAX call: https://gist.github.com/diorahman/1520485
+
 
 ## Stretch Goals
 - Autocomplete
@@ -78,3 +82,8 @@ https://developers.google.com/maps/documentation/geocoding/overview
 5:30 - 6:30pm
 - Tried to get a loading page working unsuccessfully
 - Going to look into AJAX next time I work on this
+
+### 4/30/23
+2:30 - 6:00pm
+- Looked into AJAX, JQuery, etc for trying to serve multiple pages
+- Made a stack overflow post with my current approach
