@@ -23,8 +23,10 @@ https://developers.google.com/maps/documentation/geocoding/overview
 
 ## Major Bugs
 - EJS syntax issues -> be careful about closing characters, get EJS-Lint to work
-- Could not parse CSS stylesheet - see source below for solution
+- Could not parse CSS stylesheet from API call - see source below for solution
 - Various problems with Google API
+- Loading multiple things in a row without user input - see my stackoverflow post for my problem, and my fix (https://stackoverflow.com/questions/76144206/making-a-server-side-post-request-with-node-js-express-jquery?noredirect=1#comment134283562_76144206). Can hopefully be applied to multiple chaining AJAX calls (will attempt)
+- Applying CSS to the website (not fixed)
 
 ## Key Sources
 - Express HelloWorld: https://expressjs.com/en/starter/hello-world.html 
