@@ -9,6 +9,7 @@ https://developers.google.com/maps/documentation/geocoding/overview
 
 ## TODOS
 - Get CSS stylings working
+- Move SCRIPT to separate .js file
 - Multiple nested AJAX calls (try)
 - Deal with unknown wunderground URL
 - Get more info + pretty backgrounds :3
