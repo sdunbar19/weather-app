@@ -8,10 +8,10 @@ For obvious reasons, I'm not publishing mine. See
 https://developers.google.com/maps/documentation/geocoding/overview
 
 ## TODOS
-- Try AJAX on the frontend (also potentially try tutorial)
-- Try to make functions global
-- Get multiple methods of querying working
-- Get some sort of loading working
+- Get CSS stylings working
+- Multiple nested AJAX calls (try)
+- Deal with unknown wunderground URL
+- Get more info + pretty backgrounds :3
 - Get some sort of testing working, ideally not separate methods! Bare minimum test APIs are working as expected
 - Look into amending commits
 - Refactoring - figure out if this is even good style
@@ -40,12 +40,15 @@ https://developers.google.com/maps/documentation/geocoding/overview
 - Callback model of asynchronous functions: https://stackoverflow.com/questions/3760319/how-to-force-a-program-to-wait-until-an-http-request-is-finished-in-javascript
 - Making POST requests from javascript (unsuccessful): https://stackoverflow.com/questions/6396101/pure-javascript-send-post-data-without-a-form 
 - Making POST requests from javascript p2 (unsuccessful): https://stackoverflow.com/questions/45997158/send-post-request-from-express-js-server-to-another-express-js-server
-- Making POST requests from javascript p3: https://stackoverflow.com/questions/45121440/redirect-to-new-page-after-ajax-post-request-using-express
+- Making POST requests from javascript p3 (unsuccessful): https://stackoverflow.com/questions/45121440/redirect-to-new-page-after-ajax-post-request-using-express
 - Craigslist Node.js Express AJAX tutorial: https://mherman.org/blog/handling-ajax-calls-with-node-dot-js-and-express-scraping-craigslist/
 - JQuery for Node.js: https://www.npmjs.com/package/jquery
 - An example AJAX call: https://gist.github.com/diorahman/1520485
 - AJAX from the front-end: https://www.geeksforgeeks.org/how-to-send-data-from-client-side-to-node-js-server-using-ajax-without-page-reloading/
-
+- Show a loading page with Node.js https://stackoverflow.com/questions/24241140/what-is-the-correct-way-in-node-js-express-to-show-a-spinner-while-performing-a
+- Express to modify HTML pages (HELPFUL, SUCCESSFUL): https://stackoverflow.com/questions/34643522/how-to-change-front-end-html-using-node-js
+- app.locals documentation: https://expressjs.com/en/api.html#app.locals
+- My stackoverflow Q&A about express, ajax, etc: https://stackoverflow.com/questions/76144206/making-a-server-side-post-request-with-node-js-express-jquery?noredirect=1#comment134283562_76144206
 
 ## Stretch Goals
 - Autocomplete
@@ -88,3 +91,9 @@ https://developers.google.com/maps/documentation/geocoding/overview
 2:30 - 6:00pm
 - Looked into AJAX, JQuery, etc for trying to serve multiple pages
 - Made a stack overflow post with my current approach
+
+### 5/1/23
+8:00 - 10:00pm
+- Got the AJAX call working! A loading screen is now displayed
+- Got searching working for city/state, in addition to zipcode
+- Ran into an issue when trying to apply css

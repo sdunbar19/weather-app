@@ -8,20 +8,7 @@
         <%- include('../partials/header'); %>
         </header>
         <main>
-            <section id="form">
-                <form method="POST">
-                    <div>
-                        <label for="zipcode"> 
-                            Enter your ZIP code 
-                            <input id="zipcode" name="zipcode">
-                        </label>
-                        <input type="submit">
-                    </div>
-                </form> 
-            </section>
-            <section id="results">
-                <div> <%= output %> </div>
-            </section>
+            <%- include('../partials/queryheader'); %>
         </main>
     </body>
 </html>

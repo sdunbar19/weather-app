@@ -2,21 +2,22 @@
 <html>
     <head>
         <%- include('../partials/head'); %>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){
-            $.ajax({ 
-                    url: '/request',
-                    type: 'POST',
-                    cache: false, 
-                    data: { zipcode: 03755 }, 
-                    success: function(data){
-                        console.log('Success!')
-                    }
-                    , error: function(jqXHR, textStatus, err){
-                        console.log('text status '+textStatus+', err '+err)
-                    }
-                })
-            });            
+                $.ajax({ 
+                        url: '/request',
+                        type: 'POST',
+                        cache: false, 
+                        data: {}, 
+                        success: function(data){
+                            document.querySelector("#output").innerHTML = data;
+                        }
+                        , error: function(jqXHR, textStatus, err){
+                            console.log('ERROR: text status '+textStatus+', err '+err)
+                        }
+                    })
+                });            
         </script>
     </head>
     <body class="container">
@@ -24,19 +25,9 @@
         <%- include('../partials/header'); %>
         </header>
         <main>
-            <section id="form">
-                <form method="POST">
-                    <div>
-                        <label for="zipcode"> 
-                            Enter your ZIP code 
-                            <input id="zipcode" name="zipcode">
-                        </label>
-                        <input type="submit">
-                    </div>
-                </form> 
-            </section>
+            <%- include('../partials/queryheader'); %>
             <section id="results">
-                <div> <%= output %> </div>
+                <div id="output"> <%= output %> </div>
             </section>
         </main>
     </body>
