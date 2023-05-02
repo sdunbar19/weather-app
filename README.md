@@ -51,10 +51,10 @@ https://developers.google.com/maps/documentation/geocoding/overview
 - Express to modify HTML pages (HELPFUL, SUCCESSFUL): https://stackoverflow.com/questions/34643522/how-to-change-front-end-html-using-node-js
 - app.locals documentation: https://expressjs.com/en/api.html#app.locals
 - My stackoverflow Q&A about express, ajax, etc: https://stackoverflow.com/questions/76144206/making-a-server-side-post-request-with-node-js-express-jquery?noredirect=1#comment134283562_76144206
+- Adding CSS to EJS - https://stackoverflow.com/questions/18629327/adding-css-file-to-ejs
 
 ## Stretch Goals
 - Autocomplete
-- Use bootstrap for the CSS (simple but clean)
 - Get the "conditions" and change the background based on the conditions
 - Put the unidentified conditions and other details in a backing google sheet
 - Change the background based on time
