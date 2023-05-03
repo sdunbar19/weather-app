@@ -10,6 +10,7 @@ https://developers.google.com/maps/documentation/geocoding/overview
 ## TODOS
 - Get more info (conditions) + pretty backgrounds :3
 - Get a database of accepted cities/states in the USA to fix the brittle method
+- Change color of temperature based on heat/cold
 - Autocomplete with the above list!
 - Get it into an actual lil server
 - Automatically choose a zip code based on the user's IP address
