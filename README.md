@@ -8,26 +8,20 @@ For obvious reasons, I'm not publishing mine. See
 https://developers.google.com/maps/documentation/geocoding/overview
 
 ## TODOS
-- Get CSS stylings working
-- Move SCRIPT to separate .js file
-- Multiple nested AJAX calls (try)
-- Deal with unknown wunderground URL
-- Get more info + pretty backgrounds :3
+- Get more info (conditions) + pretty backgrounds :3
+- Get a database of accepted cities/states in the world to fix the brittle method
+- Autocomplete with the above list!
+- Get it into an actual lil server
+- Automatically choose a zip code based on the user's IP address
 - Get some sort of testing working, ideally not separate methods! Bare minimum test APIs are working as expected
-- Look into amending commits
-- Refactoring - figure out if this is even good style
-- Get worldwide querying working?
-- Get more information
-- Get a testing framework built, CI/CD pipeline
-- Organize this project better
-- Get EJS-Lint working
 
 ## Major Bugs
 - EJS syntax issues -> be careful about closing characters, get EJS-Lint to work
 - Could not parse CSS stylesheet from API call - see source below for solution
 - Various problems with Google API
-- Loading multiple things in a row without user input - see my stackoverflow post for my problem, and my fix (https://stackoverflow.com/questions/76144206/making-a-server-side-post-request-with-node-js-express-jquery?noredirect=1#comment134283562_76144206). Can hopefully be applied to multiple chaining AJAX calls (will attempt)
-- Applying CSS to the website (not fixed)
+- Loading multiple things in a row without user input - see my stackoverflow post for my problem, and my fix (https://stackoverflow.com/questions/76144206/making-a-server-side-post-request-with-node-js-express-jquery?noredirect=1#comment134283562_76144206). Can also 
+be applied to chain calls to and from the server (would just add another similar ajax call in the success method of the first)
+- Applying CSS to the website - have to link the path to the folder, not include the folder in the name
 
 ## Key Sources
 - Express HelloWorld: https://expressjs.com/en/starter/hello-world.html 
@@ -53,13 +47,14 @@ https://developers.google.com/maps/documentation/geocoding/overview
 - app.locals documentation: https://expressjs.com/en/api.html#app.locals
 - My stackoverflow Q&A about express, ajax, etc: https://stackoverflow.com/questions/76144206/making-a-server-side-post-request-with-node-js-express-jquery?noredirect=1#comment134283562_76144206
 - Adding CSS to EJS - https://stackoverflow.com/questions/18629327/adding-css-file-to-ejs
+- Adding CSS, javascript to EJS - https://dev.to/yogesnsamy/how-to-add-custom-css-javascript-files-to-an-expressjs-app-48cp
+- express-static why - https://masteringjs.io/tutorials/express/app-use-static#:~:text=In%20Express%2C%20app.-,use(express.,files%20to%20your%20Express%20app.&text=You%20can%20use%20the%20express,from%20this%20folder%20via%20HTTP.
+- Server side programming - https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Introduction
+- Amending commits - https://stackoverflow.com/questions/63882369/can-i-amend-a-commit-made-with-vscode-to-github-repo
+- Zipcode database (USA) - https://data.opendatasoft.com/explore/dataset/georef-united-states-of-america-zc-point%40public/
 
 ## Stretch Goals
-- Autocomplete
-- Get the "conditions" and change the background based on the conditions
-- Put the unidentified conditions and other details in a backing google sheet
-- Change the background based on time
-- Automatically choose a zip code based on the user's IP address
+- All stretch goals are going to be accomplished - moved to TODOs
 
 ## Project Log
 ### 4/24/23
@@ -100,3 +95,11 @@ https://developers.google.com/maps/documentation/geocoding/overview
 - Got the AJAX call working! A loading screen is now displayed
 - Got searching working for city/state, in addition to zipcode
 - Ran into an issue when trying to apply css
+
+### 5/2/23
+4:10 - 5:10pm
+- Got CSS working
+- Got linking javascript working
+- Got multiple AJAX calls working
+- Got getting the city/state working - needs to be better
+- Made the project structure better

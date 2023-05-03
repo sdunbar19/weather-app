@@ -20,9 +20,18 @@ function queryTemperature(res, city, state, country) {
                 // silencing the CSS error (we don't care about CSS)
                 const dom = new JSDOM(myUnparsedHTML, { virtualConsole });
                 const document = dom.window.document;
-                temperature = document.querySelector(".wu-unit-temperature").textContent;
-                console.log("LOG: Found temperature " + temperature);
-                res.status(200).send(temperature);
+                let temperature = document.querySelector(".wu-unit-temperature").textContent;
+                let header = document.querySelector(".city-header > h1 > span").textContent;
+                if (!header.includes("Weather Conditions")) {
+                    console.log("ERROR: Header " + header + " does not include Weather Conditions, may be undefined");
+                    res.status(400).send("Temperature error: Unknown location");
+                }
+                else {
+                    header = header.replace(" Weather Conditions", "");
+                    console.log(header);
+                    console.log("LOG: Found temperature " + temperature);
+                    res.status(200).send({"city": header, "temperature": temperature});
+                }
             }
             else {
                 console.log("ERROR: Invalid status");
