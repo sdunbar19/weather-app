@@ -1,6 +1,10 @@
 # weather-app
 Challenge #1 of https://hackr.io/blog/best-computer-science-projects
 
+Edit 4/1:
+Am taking a break from this to work on some project work for a course. 
+Will return when I can!
+
 ## ABOUT
 This is a simple weather app that takes in either the city/state or the 
 zipcode of any American location, and tells you the weather at that 
