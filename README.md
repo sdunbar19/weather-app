@@ -1,6 +1,11 @@
 # weather-app
 Challenge #1 of https://hackr.io/blog/best-computer-science-projects
 
+## ABOUT
+This is a simple weather app that takes in either the city/state or the 
+zipcode of any American location, and tells you the weather at that 
+location.
+
 ## USAGE
 **IMPORTANT**: For this project to function, you must add a separate "keys.txt" file to the
 upper level directory containing a Google Geocoding API key. 
@@ -8,15 +13,15 @@ For obvious reasons, I'm not publishing mine. See
 https://developers.google.com/maps/documentation/geocoding/overview
 
 ## TODOS
-- Get more info (conditions) + pretty backgrounds :3
+- Get more info (conditions) + pretty backgrounds
 - Get a database of accepted cities/states in the USA to fix the brittle method
-- Change color of temperature based on heat/cold
 - Autocomplete with the above list!
+- Change color of temperature based on heat/cold
 - Get it into an actual lil server
 - Automatically choose a zip code based on the user's IP address
 - Get some sort of testing working, ideally not separate methods! Bare minimum test APIs are working as expected
 
-## Major Bugs
+## Bugs Encountered in Development (All Resolved)
 - EJS syntax issues -> be careful about closing characters, get EJS-Lint to work
 - Could not parse CSS stylesheet from API call - see source below for solution
 - Various problems with Google API
@@ -24,7 +29,7 @@ https://developers.google.com/maps/documentation/geocoding/overview
 be applied to chain calls to and from the server (would just add another similar ajax call in the success method of the first)
 - Applying CSS to the website - have to link the path to the folder, not include the folder in the name
 
-## Key Sources
+## Key Resources
 - Express HelloWorld: https://expressjs.com/en/starter/hello-world.html 
 - Rendering HTML in EJS: https://codeforgeek.com/render-html-file-expressjs/
 - Intro to EJS: https://www.digitalocean.com/community/tutorials/how-to-use-ejs-to-template-your-node-application
