@@ -9,7 +9,7 @@ https://developers.google.com/maps/documentation/geocoding/overview
 
 ## TODOS
 - Get more info (conditions) + pretty backgrounds :3
-- Get a database of accepted cities/states in the world to fix the brittle method
+- Get a database of accepted cities/states in the USA to fix the brittle method
 - Autocomplete with the above list!
 - Get it into an actual lil server
 - Automatically choose a zip code based on the user's IP address
@@ -53,8 +53,8 @@ be applied to chain calls to and from the server (would just add another similar
 - Amending commits - https://stackoverflow.com/questions/63882369/can-i-amend-a-commit-made-with-vscode-to-github-repo
 - Zipcode database (USA) - https://data.opendatasoft.com/explore/dataset/georef-united-states-of-america-zc-point%40public/
 
-## Stretch Goals
-- All stretch goals are going to be accomplished - moved to TODOs
+## Followups
+- Could expand this to be worldwide (will currently only work for USA)
 
 ## Project Log
 ### 4/24/23
