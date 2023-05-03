@@ -1,7 +1,7 @@
 # weather-app
 Challenge #1 of https://hackr.io/blog/best-computer-science-projects
 
-Edit 4/1:
+Edit 5/2:
 Am taking a break from this to work on some project work for a course. 
 Will return when I can!
 
