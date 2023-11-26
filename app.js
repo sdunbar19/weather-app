@@ -30,7 +30,7 @@ app.post('/zipcode',(req, res)=>{
   console.log("LOG: Rendering loader page");
   app.locals.zipcode = zipcode;
   app.locals.method = Methods.Zipcode;
-  res.render('pages/loader', {output: "Loading!"});
+  res.render('pages/loader', {output: "Loading..."});
 })
 
 app.post('/citystate',(req, res)=>{
@@ -41,7 +41,7 @@ app.post('/citystate',(req, res)=>{
   app.locals.city = city;
   app.locals.state = state;
   app.locals.method = Methods.CityState;
-  res.render('pages/loader', {output: "Loading!"});
+  res.render('pages/loader', {output: "Loading..."});
 })
 
 app.post('/request',(req, res)=> {
